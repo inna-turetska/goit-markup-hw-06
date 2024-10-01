@@ -61,12 +61,17 @@
             </li>
           </ul>
         </address>
+        <button class="button-menu" type="button">
+          <svg class="menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-menu-button"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
     <!--main-->
     <main>
-      <section class="main-page">
+      <section class="main-page hidden">
         <div class="container">
           <h1 class="main-solution">Effective Solutions for Your Business</h1>
           <button type="button" class="button">Order Service</button>
@@ -74,7 +79,7 @@
       </section>
 
       <!--solution-->
-      <section class="main-page-solutions">
+      <section class="main-page-solutions hidden">
         <div class="container">
           <h2 class="visually-hidden">Solutions for business</h2>
           <ul class="solution-list">
@@ -85,7 +90,7 @@
                 </svg>
               </div>
 
-              <h3 class="solution-title">Strategy</h3>
+              <h3 class="solution-title hidden">Strategy</h3>
               <p class="solution-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
@@ -136,7 +141,7 @@
 
       <!--team-->
 
-      <section class="team">
+      <section class="team hidden">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
@@ -331,7 +336,7 @@
 
       <!--portfolio-->
 
-      <section class="portfolio">
+      <section class="portfolio hidden">
         <div class="container">
           <h2 class="portfolio-main-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -470,7 +475,7 @@
 
     <!--footer-->
 
-    <footer class="footer-page">
+    <footer class="footer-page hidden">
       <div class="container container-footer">
         <div class="footer-page-logo">
           <a class="logo footer-logo" href="./index.html">
@@ -483,7 +488,7 @@
           </p>
         </div>
 
-        <div class="footer-media">
+        <div class="footer-media hidden">
           <p class="footer-social">Social media</p>
           <ul class="footer-icon-list">
             <li class="footer-link">
@@ -520,7 +525,7 @@
           </ul>
         </div>
 
-        <div class="footer-email">
+        <div class="footer-email hidden">
           <p class="subscribe-text">Subscribe</p>
 
           <form class="footer-form-email">
@@ -548,7 +553,7 @@
 
     <!--modal-->
 
-    <div class="backdroup is-open">
+    <div class="backdroup is-open hidden">
       <div class="modal">
         <button type="button" class="button-modal">
           <svg class="button-close" width="8" height="8">
