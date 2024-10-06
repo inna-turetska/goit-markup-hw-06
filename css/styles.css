@@ -849,7 +849,7 @@ margin-right: auto;
     letter-spacing: 0.02em;
     max-width: 288px;
     text-align: left;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .footer-logo .logo-part {
     color: #f4f4fd;
@@ -868,7 +868,7 @@ margin-right: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .footer-icon-list {
     display: flex;
